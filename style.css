@@ -102,18 +102,6 @@ h6,
     border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
 
-/* LOGO SIZE CONTROL */
-.nav-logo {
-    height: 70px;   /* perfect navbar height */
-    width: auto;    /* keep ratio */
-}
-
-@media (max-width: 768px) {
-    .nav-logo {
-        height: 30px; /* smaller on mobile */
-    }
-}
-
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
